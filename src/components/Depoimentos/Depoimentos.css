@@ -1,0 +1,116 @@
+#depoimentos {
+    width: 100%;
+    padding: 100px 50px;
+    background-color: white;
+    color: black;
+
+    flex-flow: column;
+
+    gap: 20px;
+}
+
+.slide-show {
+    --slide_min_width: 450px;
+    --position: calc(var(--slide_min_width) * var(--selected-item) * -1);
+    width: 100%, ;
+    gap: 20px;  
+}
+
+
+.slide_button {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: yellow;
+    font-size: 30px;
+    box-shadow: var(--box-shadow);
+}
+
+
+
+.slider-list {
+
+    width: var(--slide_min_width);
+
+    justify-content: flex-start;
+
+    overflow: hidden;
+
+    transition: left 0.4s ease;
+    /* background-color: aqua; */
+}
+
+
+.slide-controller {
+    gap: 10px;
+}
+
+.slide-controller input[type="radio"] {
+    /* Adicione suas regras de estilo aqui */
+    appearance: none;
+    width: 20px;
+    height: 5px;
+    background-color: white;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid red;
+}
+
+.slide-controller input[type="radio"]:checked {
+    /* Adicione suas regras de estilo para o estado checked aqui */
+    background-color: red;
+}
+
+
+.dep-cards {
+    min-width: var(--slide_min_width);
+    padding: 5px;
+    position: relative;
+    left: var(--position);
+    transition: all 0.5s ease-out;
+
+    align-items: flex-start;
+}
+
+
+.dep {
+    padding: 20px 25px;
+
+    flex-flow: column;
+    align-items: flex-start;
+    gap: 5px;
+
+    border-radius: 10px;
+    background-color: var(--bgLightGray);
+  
+
+}
+
+.dep-person {
+    gap: 10px
+}
+
+.dep-person>.img {
+    width: 60px;
+    height: 60px;
+    background-color: aqua;
+    border-radius: 50%;
+}
+
+.dep-person>.person {
+    flex-flow: column;
+    align-items: flex-start;
+}
+
+.dep-person>.person>.name {
+    font-weight: 600;
+}
+
+.dep-person>.person>.cargo {
+    font-size: small;
+}
+
+.comments {
+    font-size: 40px;
+    font-family: 'Space Grotesk', sans-serif;
+}

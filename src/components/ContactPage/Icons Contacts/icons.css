@@ -1,0 +1,27 @@
+.icons{
+    width: 100%;
+    padding: 8px;
+
+    justify-content: flex-start;
+    /* align-items: flex-start; */
+    gap: 10px;
+
+    font-size: medium;
+    font-weight: 700;
+}
+
+#icon_Name{
+    padding: 5px 8px;
+    gap: 8px;
+
+}
+
+#icon_Name > ion-icon{
+    font-size: 40px;
+    color: red;
+}
+
+#detail{
+    justify-content: flex-start;
+    text-align: left;
+}

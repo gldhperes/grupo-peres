@@ -1,0 +1,8 @@
+#peresseguranca {
+    width: 100%;
+    background-image: url("../../../imgs/main\ img.png");
+ 
+
+    flex-flow: column;
+}
+

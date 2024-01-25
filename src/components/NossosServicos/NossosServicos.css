@@ -1,0 +1,17 @@
+#nossosServicos{
+    width: 100%;
+    padding: 60px 100px;
+    
+    background-color: white;
+
+    flex-flow: column;
+    gap: 100px;
+
+    color:black;
+    
+}
+
+#services{
+    flex-flow: row wrap;
+    gap: 40px;
+}

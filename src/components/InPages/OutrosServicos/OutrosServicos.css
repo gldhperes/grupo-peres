@@ -1,0 +1,40 @@
+.outrosServicos{
+    width: 100%;
+    padding: 100px 0;
+
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 100px;
+
+
+    background-color: white;
+}
+
+.os-card{
+    width: 500px;
+    padding: 15px;
+    flex-flow: column;
+    gap: 20px;
+
+    color: black;
+    border-radius: 15px;
+    background-color: rgb(232, 232, 232);
+    box-shadow: var(--box-shadow);
+}
+
+
+.linkToOtherEmpresa{
+
+    padding: 10px 20px;
+
+    color: yellow;
+    background-color: black;
+
+    font-weight: 700;
+
+    border-radius: 10px;
+}   
+
+.linkToOtherEmpresa:hover{
+    background-color: rgb(94, 91, 91);
+}

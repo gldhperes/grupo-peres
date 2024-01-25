@@ -1,0 +1,12 @@
+
+.orcamentoBtn{
+    padding: 15px 22px;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+}
+
+.orcamentoBtn:hover{
+    background-color: var(--li-background);
+    color: yellow;
+}

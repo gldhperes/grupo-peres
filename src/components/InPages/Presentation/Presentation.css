@@ -1,0 +1,48 @@
+.presentation {
+    width: 100%;
+
+    padding: 50px 0px;
+
+    gap: 50px;
+
+    background-color: white;
+    color: black;
+}
+
+.ap-card {
+    width: 95%;
+    padding: var(--default-padding);
+
+    justify-content: space-around;
+    gap: 50px;
+
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: var(--box-shadow);
+}
+
+.ap-content-container {
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+    font-weight: 700;
+}
+
+.ap-title {
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+    /* font-weight: 700; */
+}
+
+.ap-content {
+    width: 400px;
+}
+
+.ap-content-img {
+    width: 600px;
+    height: 400px;
+
+    background-color: aqua;
+    border-radius: 10px;
+}

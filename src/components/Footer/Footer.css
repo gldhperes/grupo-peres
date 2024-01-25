@@ -1,0 +1,83 @@
+footer {
+    width: 100%;
+    padding: 50px 150px;
+
+    flex-flow: column;
+    gap: 30px;
+
+    background-color: red;
+}
+
+.content {
+    width: 100%;
+
+    flex-flow: row wrap;
+    align-items: flex-start;
+    gap: 50px;
+
+    /* background-color: aqua; */
+}
+
+.content>.grupoPeres {
+    flex-flow: column;
+    gap: 10px;
+}
+
+.matriz {
+    flex-flow: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.footer_icon {
+
+    padding: 8px;
+    font-family: peresfont;
+    font-size: large;
+    color: yellow;
+    text-shadow: var(--text-shadow);
+
+    border: 3px solid yellow;
+}
+
+.container {
+    flex-flow: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.contatos_footer {}
+
+.contatos_footer>ul {
+    flex-flow: column;
+    align-items: flex-start;
+}
+
+.contatos_footer>ul>li {
+    padding: 5px;
+    padding-left: 0px;
+
+    gap: 8px;
+}
+
+.contatos_footer>ul>li>ion-icon {
+    color: yellow;
+    font-size: larger;
+}
+
+.footer-redes-sociais {
+    margin-top: 10px;
+}
+
+.divisor {
+    width: 100%;
+    border: 1px solid white;
+}
+
+.reservados {
+    font-size: small;
+}
+
+.reservados>p>span {
+    font-weight: bolder;
+}

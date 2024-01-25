@@ -1,0 +1,146 @@
+#contatos {
+    position: relative;
+    width: 100%;
+    height: 600px;
+
+    padding: 20px;
+    padding-top: 700px;
+
+    flex-flow: column;
+    gap: 100px;
+    background-image: url('../../imgs/atendente.jpg');
+}
+
+
+#contatos::after {
+    content: "";
+    width: 100%;
+    height: 750px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    background: rgba(0, 0, 150, 0.4);
+    /* fundo azul transparente */
+    backdrop-filter: blur(12px);
+    /* imagem borrada */
+}
+
+#contatos>h1 {
+    /* width: 100%; */
+    z-index: 1;
+}
+
+.contatos_cards{
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.contatos_container {
+    width: 600px;
+    padding: 20px;
+
+    position: relative;
+    /* top: 0; */
+    z-index: 1;
+
+
+    justify-content: space-between;
+    /* align-items: flex-start; */
+
+    border-radius: 20px;
+    background-color: rgb(231, 244, 255);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: black;
+
+}
+
+form {
+
+    flex-flow: column wrap;
+    align-items: flex-start;
+    gap: 20px;
+
+    padding: 10px;
+
+    /* background-color: aqua; */
+}
+
+form>div {
+    width: 100%;
+    gap: 12px;
+
+    justify-content: flex-start;
+    /* background-color: bisque; */
+}
+
+label {
+    width: 100%;
+
+    font-size: larger;
+    font-weight: bold;
+
+    flex-flow: column;
+    align-items: flex-start;
+    gap: 8px;
+
+    padding: 10px;
+}
+
+label>input,
+#textarea {
+    --m-width-input: 250px;
+    min-width: var(--m-width-input);
+
+    font-size: small;
+
+    padding: 5px 8px;
+    border-radius: 5px;
+    background-color: lightcyan;
+}
+
+#textarea {
+    width: 100%;
+    height: 100px;
+    resize: none;
+}
+
+#enviarEmailBtn {
+    margin-left: 8px;
+    padding: 12px 25px;
+    cursor: pointer;
+
+    font-size: large;
+    font-weight: bold;
+
+    /* color: white; */
+    border-radius: 5px;
+    background-color: yellow;
+}
+
+.outrosContatos{
+    padding: 10px;
+}
+
+.contacts_list {
+    width: 100%;
+
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+
+    /* background-color: antiquewhite; */
+}
+
+.complement {
+ 
+    width: 100%;
+    height: 500px;
+    
+    background-color: white;
+}
+

@@ -1,0 +1,20 @@
+{
+  "services": [
+    {
+      "name": "Segurança Patrimonial",
+      "desc": "asd"
+    },
+    {
+      "name": "Segurança Eletrônica",
+      "desc": "asd"
+    },
+    {
+      "name": "Eventos",
+      "desc": "asd"
+    },
+    {
+      "name": "Serviçoes Gerais",
+      "desc": "asd"
+    }
+  ]
+}

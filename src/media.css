@@ -1,0 +1,182 @@
+@media only screen and (max-width: 1200px) {
+    :root {
+        --default-padding: 30px !important;
+    }
+
+    #intro {
+        --intro-margin-right: 30px !important;
+    }
+
+    #apresentacao {
+        padding: 30px var(--default-padding) !important;
+    }
+
+    footer {
+        padding: 50px var(--default-padding) !important;
+    }
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    #ap-texto {
+        width: 350px !important;
+    }
+
+    .contatos_container{
+        flex-flow: row wrap !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .outrosContatos{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+    #apresentacao {
+        gap: 25px !important;
+    }
+
+    #ap-texto {
+        font-size: medium !important;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    #navbar {
+        --border-lightgray: 1px solid lightgray;
+        border-top: var(--border-lightgray) !important;
+        border-bottom: var(--border-lightgray) !important;
+
+        width: 100% !important;
+        padding: 10px 0 !important;
+        position: absolute !important;
+        top: 70px !important;
+        left: 0 !important;
+
+        flex-flow: column !important;
+
+        background-color: red !important;
+        display: none !important;
+    }
+
+    #navbar>li {
+        width: 100% !important;
+    }
+
+    #navbar>li:hover {
+        background-color: red !important;
+    }
+
+    #redes-sociais {
+        display: none !important;
+    }
+
+    #header_menu {
+        display: flex !important;
+    }
+
+
+
+    /* DROPDOWN */
+
+    .dropdown {
+
+
+        width: 100% !important;
+        position: static !important;
+        margin-top: 10px !important;
+
+
+    }
+
+
+    .dropdown>li {
+        width: 100% !important;
+        border-bottom: var(--border-lightgray) !important;
+    }
+
+    .dropdown>li:hover {
+        /* Colocar na mesma cor principal (vermelha) */
+        background-color: none !important;
+    }
+
+    .dropdown>li>a {
+        text-align: center !important;
+    }
+
+    .dropdown>li>ion-icon {
+        display: none !important;
+    }
+
+
+
+
+
+
+}
+
+@media only screen and (max-width: 700px) {
+
+    #main {
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+
+
+    }
+
+    #intro {
+        margin-right: 0px !important;
+    }
+
+    #ap-texto {
+        font-size: small !important;
+    }
+
+    #ap-img{
+        width: 300px !important;
+        height: 400px !important;
+    }
+
+    .slide-show {
+        --slide_min_width: 300px !important;
+    }
+
+    .serviceCard {
+        width: 400px !important;
+        height: 280px !important;
+    }
+
+    #nossosServicos>h2 {
+        text-align: center;
+    }
+
+    #numeros {
+        padding: 50px !important;
+        gap: 50px !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    #wpp {
+        bottom: 12px;
+        left: 12px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .serviceCard {
+        width: 280px !important;
+        height: 150px !important;
+    }
+}

@@ -1,0 +1,37 @@
+.areas-atuantes {
+    padding: 100px;
+
+    flex-flow: column;
+    gap: 50px;
+
+    color: black;
+    background-color: var(--bgLightGray);
+}
+
+.areas-atuantes>h3 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.atuacao-container {
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.atuacao-card {
+    padding: 20px 25px;
+    gap: 15px;
+
+    font-size: large;
+    background-color: rgb(255, 255, 255);
+    
+    border-radius: 8px;
+    box-shadow: var(--box-shadow);
+}
+
+.atuacao-card > p{
+    font-weight: 700;
+
+}
+
+
