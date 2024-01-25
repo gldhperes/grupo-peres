@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/grupo-peres/static/css/main.c28b2b18.css",
-    "main.js": "/grupo-peres/static/js/main.fccbafa2.js",
+    "main.js": "/grupo-peres/static/js/main.8e73889b.js",
     "static/media/main img.png": "/grupo-peres/static/media/main img.d6d61eda1059e7c01e47.png",
     "static/media/neuropolitical-regular.ttf": "/grupo-peres/static/media/neuropolitical-regular.9559bc819be5a4991947.ttf",
     "index.html": "/grupo-peres/index.html",
     "main.c28b2b18.css.map": "/grupo-peres/static/css/main.c28b2b18.css.map",
-    "main.fccbafa2.js.map": "/grupo-peres/static/js/main.fccbafa2.js.map"
+    "main.8e73889b.js.map": "/grupo-peres/static/js/main.8e73889b.js.map"
   },
   "entrypoints": [
     "static/css/main.c28b2b18.css",
-    "static/js/main.fccbafa2.js"
+    "static/js/main.8e73889b.js"
   ]
 }
